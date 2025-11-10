@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+
+<!-- This BorderPane is now the root. It lets us put things in
+     different regions (Top, Center, Bottom, Left, Right) -->
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="edu.utsa.cs3443.demo.MainScreenController"
+            prefHeight="600.0" prefWidth="400.0">
+
+    <!-- TOP REGION: Title and Navigation Buttons -->
+    <top>
+        <VBox alignment="CENTER" spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10" />
+            </padding>
+
+            <Label text="San Antonio Info" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+            <!-- This HBox holds our navigation buttons -->
+            <HBox alignment="CENTER" spacing="15">
+                <Button text="Transportation" onAction="#handleTransportationButton" />
+                <Button text="Food" onAction="#handleFoodButton" />
+                <Button text="Spots" onAction="#handleSpotsButton" />
+                <!-- *** I'VE ADDED THE NEW LODGING BUTTON HERE *** -->
+                <Button text="Lodging" onAction="#handleLodgingButton" />
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- CENTER REGION: The Scrolling List -->
+    <center>
+        <ScrollPane hbarPolicy="NEVER" fitToWidth="true">
+            <content>
+                <!-- This VBox will hold all our loaded items -->
+                <VBox fx:id="itemContainer" spacing="10">
+                    <padding>
+                        <Insets top="10" right="10" bottom="10" left="10" />
+                    </padding>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </center>
+
+</BorderPane>
