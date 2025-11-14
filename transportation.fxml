@@ -16,25 +16,25 @@
             </ButtonBar>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <TextArea prefHeight="107.0" prefWidth="457.0" text="HEB&#10;H-E-B is a Texas-based grocery store chain that’s known for its wide selection, &#10;affordable prices, and strong community focus. It’s more than just a supermarket—it’s a place &#10;where you can find everything from fresh produce, meats, and baked goods to household &#10;essentials, pharmacy services, and even specialty items unique to Texas and Mexico.">
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="VIA&#10;San Antonio has a bus system in place that can take you across the city for just a couple of bucks. &#10;To those who attend UTSA the VIA Bus service is free to students to help those &#10;who may have classes downtown. ">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </TextArea>
                   <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/heb image.jpg" />
+                        <Image url="@transportationImages/viabus.jpg" />
                      </image></ImageView>
                </children>
             </HBox>
             <Button mnemonicParsing="false" text="Click here to learn more" />
-            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="600.0">
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="145.0" prefWidth="600.0">
                <children>
-                  <ImageView fitHeight="114.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="108.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/chestershamburger.jpg" />
+                        <Image url="@transportationImages/runnerbus.jpg" />
                      </image></ImageView>
-                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Chester Hamburgers&#10;Chester’s is a long-standing San Antonio burger spot known for its classic, &#10;made-to-order hamburgers and nostalgic diner feel. Founded in 1984, &#10;Locals often describe Chester’s as one of the best burger joints in San Antonio, &#10;valued for its consistency and old-school charm.">
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Runner&#10;For those who are attending UTSA and are staying by a nearby apartment. &#10;The runner is a bus that go through several routes near the university and &#10;stop by apartments every 15 minutes from sunrise to sunset check out which&#10; route and what times are available to you.">
                      <font>
                         <Font size="10.0" />
                      </font>
@@ -44,14 +44,14 @@
             <Button mnemonicParsing="false" text="Click here to learn more" />
             <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <TextArea prefHeight="107.0" prefWidth="457.0" text="Bill Millers BBQ&#10;Bill Miller Bar-B-Q (often just called Bill Miller’s) is a beloved Texas fast-food chain &#10;that specializes in barbecue and Southern-style comfort food. It’s a local favorite in&#10;San Antonio and across South Texas — kind of a hometown classic where people &#10;grab breakfast tacos, sweet tea, or a plate of smoked brisket and ribs.">
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="E-Scooters&#10;Downtown there is much to see but also a lot of walking for those who are not the biggest fans&#10; of walking or maybe have been doing it too long you may want to try an e-scooter. &#10;While it does charge your card based on the distance you are traveling it does get you to &#10;your destination faster than your own 2 feet.">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </TextArea>
                   <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/billmillerimage.png" />
+                        <Image url="@transportationImages/escoot.jpg" />
                      </image>
                   </ImageView>
                </children>
@@ -61,9 +61,9 @@
                <children>
                   <ImageView fitHeight="104.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/mamamargies.jpg" />
+                        <Image url="@transportationImages/rideshare.jpg" />
                      </image></ImageView>
-                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Mama Margies&#10;Mama Margie’s is a local Tex-Mex restaurant chain&#10;known for its 24-hour service, freshly made tortillas, and casual, family-friendly atmosphere. &#10;With several locations around San Antonio and nearby cities, &#10;it’s a popular spot for quick and affordable Mexican food any time of day.">
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Rideshare&#10;One thing about San Antonio is that it is very vast and thus not very walkable (except downtown)&#10;so If none of the accommodations are to your liking above or you just cant wait for a bus, &#10;San Antonio much like other cities also has ride-share programs such as uber and lyft in place&#10;to help you get from a to b. ">
                      <font>
                         <Font size="10.0" />
                      </font>

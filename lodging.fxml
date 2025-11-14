@@ -16,25 +16,25 @@
             </ButtonBar>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <TextArea prefHeight="107.0" prefWidth="457.0" text="HEB&#10;H-E-B is a Texas-based grocery store chain that’s known for its wide selection, &#10;affordable prices, and strong community focus. It’s more than just a supermarket—it’s a place &#10;where you can find everything from fresh produce, meats, and baked goods to household &#10;essentials, pharmacy services, and even specialty items unique to Texas and Mexico.">
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="UTSA&#10;With daily rates between $38.10 and $40.34, a full summer stay would cost &#10;approximately $3,429 to $3,630. This is a highly competitive price for a furnished, &#10;all-inclusive living space. All-inclusive pricing: Utilities, internet, and furniture are &#10;typically included.&#10;">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </TextArea>
                   <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/heb image.jpg" />
+                        <Image url="@lodgingImages/utsadorm.jpg" />
                      </image></ImageView>
                </children>
             </HBox>
             <Button mnemonicParsing="false" text="Click here to learn more" />
-            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="600.0">
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="145.0" prefWidth="600.0">
                <children>
-                  <ImageView fitHeight="114.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="108.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/chestershamburger.jpg" />
+                        <Image url="@lodgingImages/texasanmdorm.jpg" />
                      </image></ImageView>
-                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Chester Hamburgers&#10;Chester’s is a long-standing San Antonio burger spot known for its classic, &#10;made-to-order hamburgers and nostalgic diner feel. Founded in 1984, &#10;Locals often describe Chester’s as one of the best burger joints in San Antonio, &#10;valued for its consistency and old-school charm.">
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Texas A&amp;M San antonio&#10;Their nightly rates range from $40 to $60, putting a 90-day stay between $3,600 and $5,400. &#10;The lower end of this range is also a very affordable option. All-inclusive pricing: Utilities, &#10;internet, and furniture are typically included.&#10;">
                      <font>
                         <Font size="10.0" />
                      </font>
@@ -44,14 +44,14 @@
             <Button mnemonicParsing="false" text="Click here to learn more" />
             <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <TextArea prefHeight="107.0" prefWidth="457.0" text="Bill Millers BBQ&#10;Bill Miller Bar-B-Q (often just called Bill Miller’s) is a beloved Texas fast-food chain &#10;that specializes in barbecue and Southern-style comfort food. It’s a local favorite in&#10;San Antonio and across South Texas — kind of a hometown classic where people &#10;grab breakfast tacos, sweet tea, or a plate of smoked brisket and ribs.">
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="Sublet&#10;San Antonio is a major college city, and many students leave for the summer, creating a&#10;large market for sublets. You can often find a room in a fully furnished apartment for a fraction&#10;of the regular price.&#10;Estimated Cost: You can find summer sublets ranging from $500 to $800 per month&#10; ($1,500 to $2,400 for the summer), especially in areas around UTSA.">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </TextArea>
                   <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/billmillerimage.png" />
+                        <Image url="@lodgingImages/sublet.jpg" />
                      </image>
                   </ImageView>
                </children>
@@ -61,9 +61,9 @@
                <children>
                   <ImageView fitHeight="104.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@foodImages/mamamargies.jpg" />
+                        <Image url="@lodgingImages/hotel.jpg" />
                      </image></ImageView>
-                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Mama Margies&#10;Mama Margie’s is a local Tex-Mex restaurant chain&#10;known for its 24-hour service, freshly made tortillas, and casual, family-friendly atmosphere. &#10;With several locations around San Antonio and nearby cities, &#10;it’s a popular spot for quick and affordable Mexican food any time of day.">
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Hotel&#10;For those who prioritize convenience and don't want to worry about furnishings or utilities, an&#10; extended-stay hotel is a solid choice. While generally more expensive, they can be competitive, &#10;especially if you find a good weekly or monthly rate. Estimated Cost: Budget-friendly options like&#10; Extended Stay America or WoodSpring Suites can range from $1,200 to $2,000 per&#10;month ($3,600 to $6,000 for the summer).">
                      <font>
                         <Font size="10.0" />
                      </font>
