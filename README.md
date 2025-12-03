@@ -36,6 +36,6 @@ Technologies Used 🛠️
 
 Developers 👨‍💻  
 Wesley Cook  
-Martin Bendolla  
+Martin Bedolla  
 Chelsea OgBede  
 Luis Jesus Jiminez Lopez  
