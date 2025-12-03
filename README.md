@@ -4,16 +4,16 @@ Miciti
 
 A simple app that allows you to learn information about San Antonio and what it has to offer.
 
-Features 🚀
-  1.Log in with existing credentials
--Account System
-  -Remove Accounts
-  -Add Accounts
-  -Search Accounts
--Find information about San Antonio
--Shared AccountSystem across all controllers
--8 Screens
--Error/Exception Handlings for incorrect inputs
+Features 🚀  
+1.Log in system with existing creditials  
+-Account System  
+  -Remove Accounts  
+  -Add Accounts  
+  -Search Accounts  
+-Find information about San Antonio  
+-Shared AccountSystem across all controllers  
+-8 Screens  
+-Error/Exception Handlings for incorrect inputs  
 
 Project Structure 📁 
 -MVC Pattern
