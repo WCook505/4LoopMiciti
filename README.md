@@ -5,7 +5,7 @@ Miciti
 A simple app that allows you to learn information about San Antonio and what it has to offer.
 
 Features 🚀
-  -Log in with existing credentials
+  1.Log in with existing credentials
 -Account System
   -Remove Accounts
   -Add Accounts
