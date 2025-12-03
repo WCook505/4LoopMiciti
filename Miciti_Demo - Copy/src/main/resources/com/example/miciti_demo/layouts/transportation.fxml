@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miciti_demo.TransportationController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ButtonBar prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                <Button fx:id="homeButton" mnemonicParsing="false" onAction="#switchToMenu" text="Home" />
+              </buttons>
+            </ButtonBar>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="VIA&#10;San Antonio has a bus system in place that can take you across the city for just a couple of bucks. &#10;To those who attend UTSA the VIA Bus service is free to students to help those &#10;who may have classes downtown. ">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/viabus.jpg"/>
+                     </image></ImageView>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="145.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="108.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/runnerbus.jpg" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Runner&#10;For those who are attending UTSA and are staying by a nearby apartment. &#10;The runner is a bus that go through several routes near the university and &#10;stop by apartments every 15 minutes from sunrise to sunset check out which&#10; route and what times are available to you.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="E-Scooters&#10;Downtown there is much to see but also a lot of walking for those who are not the biggest fans&#10; of walking or maybe have been doing it too long you may want to try an e-scooter. &#10;While it does charge your card based on the distance you are traveling it does get you to &#10;your destination faster than your own 2 feet.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/escoot.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="104.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/rideshare.jpg" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Rideshare&#10;One thing about San Antonio is that it is very vast and thus not very walkable (except downtown)&#10;so If none of the accommodations are to your liking above or you just cant wait for a bus, &#10;San Antonio much like other cities also has ride-share programs such as uber and lyft in place&#10;to help you get from a to b. ">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button layoutX="20.0" layoutY="127.0" mnemonicParsing="false" text="Click here to learn more" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

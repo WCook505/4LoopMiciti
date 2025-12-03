@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miciti_demo.SpotsController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ButtonBar prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                <Button fx:id="homeButton" mnemonicParsing="false" onAction="#switchToMenu" text="Home" />
+              </buttons>
+            </ButtonBar>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="Japanese Tea Garden&#10;Originally a rock quarry, this stunning garden was transformed&#10;in the early 20th century into a tranquil, multi-level oasis. It features lush floral displays,&#10;stone archways, a picturesque waterfall, and winding stone paths that navigate you &#10;through a landscape of ponds filled with vibrant koi.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/japeneseteagarden.jpg" />
+                     </image></ImageView>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="145.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="108.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/towerofamericas.png" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Six Flags Fiesta Texas&#10;Six Flags San Antonio is a big theme park filled with roller coasters, &#10;water rides, shows, and family attractions. It’s one of the most popular places to go&#10; for fun in Texas.What makes this Six Flags special is that it’s built inside a former rock quarry, &#10;so many of the rides use the tall cliffs as part of the scenery and drops. &#10;It gives the park a unique look you won’t find at other theme parks.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="St Mary's Strip&#10;his is the city's quintessential nightlife strip, known for its high energy and younger, &#10;local crowd. It's the go-to spot for live music and a more traditional &quot;going out&quot; experience.&#10;Vibe: Lively, loud, and eclectic with a collegiate and alternative feel.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/stmarystrip.jpg"/>
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="104.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/riverwalk.jpg" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="River Walk&#10;This world-famous urban waterway is the heart of the city.&#10; It's a vibrant network of walkways along the banks of the San Antonio River,&#10; lined with restaurants, shops, hotels, and bars, one level below the downtown streets. &#10;You can explore it on foot or take a narrated river cruise.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button layoutX="20.0" layoutY="127.0" mnemonicParsing="false" text="Click here to learn more" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

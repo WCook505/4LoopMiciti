@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miciti_demo.LodgingController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ButtonBar prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                <Button fx:id="homeButton" mnemonicParsing="false" onAction="#switchToMenu" text="Home" />
+              </buttons>
+            </ButtonBar>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="UTSA&#10;With daily rates between $38.10 and $40.34, a full summer stay would cost &#10;approximately $3,429 to $3,630. This is a highly competitive price for a furnished, &#10;all-inclusive living space. All-inclusive pricing: Utilities, internet, and furniture are &#10;typically included.&#10;">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/utsadorm.jpg" />
+                     </image></ImageView>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="145.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="108.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/texasanmdorm.jpg" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Texas A&amp;M San antonio&#10;Their nightly rates range from $40 to $60, putting a 90-day stay between $3,600 and $5,400. &#10;The lower end of this range is also a very affordable option. All-inclusive pricing: Utilities, &#10;internet, and furniture are typically included.&#10;">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="Sublet&#10;San Antonio is a major college city, and many students leave for the summer, creating a&#10;large market for sublets. You can often find a room in a fully furnished apartment for a fraction&#10;of the regular price.&#10;Estimated Cost: You can find summer sublets ranging from $500 to $800 per month&#10; ($1,500 to $2,400 for the summer), especially in areas around UTSA.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/sublet.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="104.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/hotel.jpg" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Hotel&#10;For those who prioritize convenience and don't want to worry about furnishings or utilities, an&#10; extended-stay hotel is a solid choice. While generally more expensive, they can be competitive, &#10;especially if you find a good weekly or monthly rate. Estimated Cost: Budget-friendly options like&#10; Extended Stay America or WoodSpring Suites can range from $1,200 to $2,000 per&#10;month ($3,600 to $6,000 for the summer).">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button layoutX="20.0" layoutY="127.0" mnemonicParsing="false" text="Click here to learn more" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

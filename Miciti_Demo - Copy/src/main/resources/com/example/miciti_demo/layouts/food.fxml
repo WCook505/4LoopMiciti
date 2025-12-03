@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miciti_demo.FoodController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="HEB&#10;H-E-B is a Texas-based grocery store chain that’s known for its wide selection, &#10;affordable prices, and strong community focus. It’s more than just a supermarket—it’s a place &#10;where you can find everything from fresh produce, meats, and baked goods to household &#10;essentials, pharmacy services, and even specialty items unique to Texas and Mexico.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="107.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/heb image.jpg" />
+                     </image></ImageView>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="114.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/chesters hamburger.jpg" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Chester Hamburgers&#10;Chester’s is a long-standing San Antonio burger spot known for its classic, &#10;made-to-order hamburgers and nostalgic diner feel. Founded in 1984, &#10;Locals often describe Chester’s as one of the best burger joints in San Antonio, &#10;valued for its consistency and old-school charm.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="107.0" prefWidth="457.0" text="Bill Millers BBQ&#10;Bill Miller Bar-B-Q (often just called Bill Miller’s) is a beloved Texas fast-food chain &#10;that specializes in barbecue and Southern-style comfort food. It’s a local favorite in&#10;San Antonio and across South Texas — kind of a hometown classic where people &#10;grab breakfast tacos, sweet tea, or a plate of smoked brisket and ribs.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="101.0" fitWidth="194.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Click here to learn more" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="104.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/mamamargies.jpg" />
+                     </image></ImageView>
+                  <TextArea prefHeight="107.0" prefWidth="458.0" text="Mama Margies&#10;Mama Margie’s is a local Tex-Mex restaurant chain&#10;known for its 24-hour service, freshly made tortillas, and casual, family-friendly atmosphere. &#10;With several locations around San Antonio and nearby cities, &#10;it’s a popular spot for quick and affordable Mexican food any time of day.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button layoutX="20.0" layoutY="127.0" mnemonicParsing="false" text="Click here to learn more" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
